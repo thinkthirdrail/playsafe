@@ -1,0 +1,19 @@
+{
+  "name": "playsafe",
+  "version": "1.0.0",
+  "description": "Playsafe Custom Wordpress Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diogo Lopes",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "grunt": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
