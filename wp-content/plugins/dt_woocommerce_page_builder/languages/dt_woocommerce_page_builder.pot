@@ -1,0 +1,1380 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DT WooCommerce Page Builder\n"
+"POT-Creation-Date: 2018-06-07 10:04+0700\n"
+"PO-Revision-Date: 2018-06-07 10:04+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin.php:14 includes/admin.php:324
+msgid "WooCommerce Page Builder"
+msgstr ""
+
+#: includes/admin.php:68
+msgid "SAVE CHANGES"
+msgstr ""
+
+#: includes/admin.php:74
+msgid "General"
+msgstr ""
+
+#: includes/admin.php:75
+msgid "Product Page"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "Category Page"
+msgstr ""
+
+#: includes/admin.php:77
+msgid "Checkout"
+msgstr ""
+
+#: includes/admin.php:78
+msgid "Accounts"
+msgstr ""
+
+#: includes/admin.php:80
+msgid "Support"
+msgstr ""
+
+#: includes/admin.php:91
+msgid "Online Documentation"
+msgstr ""
+
+#: includes/admin.php:92
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/admin.php:102 includes/admin.php:141
+msgid "Template Type"
+msgstr ""
+
+#: includes/admin.php:105
+msgid "Product Custom Template"
+msgstr ""
+
+#: includes/admin.php:106 includes/admin.php:145
+msgid "Page Custom Template"
+msgstr ""
+
+#: includes/admin.php:108
+msgid ""
+"Enable Custom Product Template for Pages. By default Product Custom Template "
+"is available for posttype dtwpb_product_tpl only. (Hit SAVE CHANGES top "
+"apply)"
+msgstr ""
+
+#: includes/admin.php:113
+msgid "Product Template Default"
+msgstr ""
+
+#: includes/admin.php:119 includes/admin.php:409 includes/admin.php:542
+msgid "Select a product template&hellip;"
+msgstr ""
+
+#: includes/admin.php:120 includes/admin.php:157 includes/admin.php:269
+msgid "-- None (Use theme layout) --"
+msgstr ""
+
+#: includes/admin.php:127
+msgid "Select Product Template for all Products."
+msgstr ""
+
+#: includes/admin.php:127
+#, php-format
+msgid " %sCreate new%s product template."
+msgstr ""
+
+#: includes/admin.php:144
+msgid "Product Category Custom Template"
+msgstr ""
+
+#: includes/admin.php:147
+msgid ""
+"Enable Custom Category Template for Pages. By default Category Template is "
+"available for posttype dtwpb_product_tpl only. (Hit SAVE CHANGES top apply)"
+msgstr ""
+
+#: includes/admin.php:150
+msgid "Category Template Default"
+msgstr ""
+
+#: includes/admin.php:156 includes/admin.php:503 includes/admin.php:624
+msgid "Select a category template&hellip;"
+msgstr ""
+
+#: includes/admin.php:164
+msgid ""
+"Select Category Template Or you can go to setting <strong>Category Custom "
+"Page</strong> option for each category."
+msgstr ""
+
+#: includes/admin.php:164
+#, php-format
+msgid " %sCreate new%s category template."
+msgstr ""
+
+#: includes/admin.php:176
+msgid "Cart Page Template"
+msgstr ""
+
+#: includes/admin.php:183 includes/admin.php:202 includes/admin.php:229
+#: includes/admin.php:249 includes/admin.php:347 includes/admin.php:410
+#: includes/admin.php:504 includes/admin.php:543 includes/admin.php:625
+msgid "None"
+msgstr ""
+
+#: includes/admin.php:188 includes/admin.php:207 includes/admin.php:234
+#: includes/admin.php:254
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: includes/admin.php:191
+msgid ""
+"Select Cart page custom template. Remove the [woocommerce_cart] shortcode "
+"standard default when use the custom shortcodes of WooCommerce Page Builder"
+msgstr ""
+
+#: includes/admin.php:195
+msgid "Checkout Page Template"
+msgstr ""
+
+#: includes/admin.php:210
+msgid ""
+"Select Checkout page custom template. Remove the [woocommerce_checkout] "
+"shortcode standard default when use the custom shortcodes of WooCommerce "
+"Page Builder"
+msgstr ""
+
+#: includes/admin.php:222
+msgid "My Account Before Login Page Template"
+msgstr ""
+
+#: includes/admin.php:237
+msgid ""
+"Custom page before user login. Go to build a custom MyAccount Before login "
+"page, use the elements in the \"Woo MyAccount Before Login\". You can also "
+"add the steps/description how to create an account for this custom page."
+msgstr ""
+
+#: includes/admin.php:242
+msgid "My Account Page Template"
+msgstr ""
+
+#: includes/admin.php:257
+msgid ""
+"Select My Account page custom template. Remove the [woocommerce_my_account] "
+"shortcode standard default when use the custom shortcodes of WooCommerce "
+"Page Builder"
+msgstr ""
+
+#: includes/admin.php:262
+msgid "Account Details Template"
+msgstr ""
+
+#: includes/admin.php:268
+msgid "Select Account Details template&hellip;"
+msgstr ""
+
+#: includes/admin.php:276
+msgid "Select Account Details Template."
+msgstr ""
+
+#: includes/admin.php:276
+#, php-format
+msgid " %sCreate new%s Account Details template."
+msgstr ""
+
+#: includes/admin.php:323
+#, php-format
+msgid ""
+"If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/admin.php:325
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/admin.php:335 includes/admin.php:402 includes/admin.php:534
+msgid "Product Custom Page"
+msgstr ""
+
+#: includes/admin.php:361
+msgid "Select a template&hellip;"
+msgstr ""
+
+#: includes/admin.php:362
+msgid "Default"
+msgstr ""
+
+#: includes/admin.php:368
+#, php-format
+msgid ""
+"Select a product template. Default is use in %sProduct Template Default%s "
+"setting."
+msgstr ""
+
+#: includes/admin.php:416 includes/admin.php:549
+#, php-format
+msgid ""
+"Select a product template or %sCreate new%s template. This template will be "
+"applied for all products of the category."
+msgstr ""
+
+#: includes/admin.php:419 includes/admin.php:554 includes/vc-map/vc-map.php:37
+msgid "Category Thumbnail"
+msgstr ""
+
+#: includes/admin.php:423 includes/admin.php:559
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/admin.php:424 includes/admin.php:560
+msgid "Remove image"
+msgstr ""
+
+#: includes/admin.php:446 includes/admin.php:584
+msgid "Choose an image"
+msgstr ""
+
+#: includes/admin.php:448 includes/admin.php:586
+msgid "Use image"
+msgstr ""
+
+#: includes/admin.php:496 includes/admin.php:616
+msgid "Category Custom Page"
+msgstr ""
+
+#: includes/admin.php:511 includes/admin.php:640
+msgid "Apply category template for the Child Categories"
+msgstr ""
+
+#: includes/admin.php:512 includes/admin.php:631
+#, php-format
+msgid "Select a category template or %sCreate new%s template."
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:27
+msgid "Account Details Extra Fields Template"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:28
+msgid "Account Details"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:29
+msgctxt "Admin menu name"
+msgid "Account Details"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:30
+#: includes/class-woo-extra-account-fields.php:31
+#: includes/post-type-cat-tpl.php:29
+msgid "Add New"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:32
+#: includes/class-woo-extra-account-fields.php:33
+#: includes/post-type-cat-tpl.php:30 includes/post-type-product-tpl.php:35
+msgid "Edit"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:34
+#: includes/post-type-cat-tpl.php:32
+msgid "New"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:35
+#: includes/post-type-cat-tpl.php:33 includes/post-type-cat-tpl.php:34
+msgid "View"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:37
+msgid "Search Account Details"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:38
+msgid "Not found"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:40
+msgid "No Account Details found in trash"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:42
+msgid "Parent Account Details"
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:72
+msgid "<strong>Error</strong>: "
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:144
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:148
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:150
+msgid "This email address is already registered."
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:154
+msgid "Please re-enter your password."
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:156
+msgid "Passwords do not match."
+msgstr ""
+
+#: includes/class-woo-extra-account-fields.php:172
+msgid "Account details changed successfully."
+msgstr ""
+
+#: includes/dt-template-functions.php:309
+msgid ""
+"The order totals have been updated. Please confirm your order by pressing "
+"the Place Order button at the bottom of the page."
+msgstr ""
+
+#: includes/functions.php:119
+msgid "Default sorting"
+msgstr ""
+
+#: includes/functions.php:120
+msgid "Sort by popularity"
+msgstr ""
+
+#: includes/functions.php:121
+msgid "Sort by average rating"
+msgstr ""
+
+#: includes/functions.php:122
+msgid "Sort by newness"
+msgstr ""
+
+#: includes/functions.php:123
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: includes/functions.php:124
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: includes/functions.php:204
+msgid "&larr; Previous"
+msgstr ""
+
+#: includes/functions.php:205
+msgid "Next &rarr;"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:25
+msgid "Category Templates"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:26
+msgid "Category Template"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:27
+msgctxt "Admin menu name"
+msgid "Category Templates"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:28
+msgid "Add New Category Templates"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:31 includes/post-type-product-tpl.php:36
+msgid "Edit Product Template"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:35 includes/post-type-product-tpl.php:40
+msgid "Search Product Templates"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:36
+msgid "No Templates found"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:37
+msgid "No Templates found in trash"
+msgstr ""
+
+#: includes/post-type-cat-tpl.php:38
+msgid "Parent Template"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:30
+msgid "Product Templates"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:31
+msgid "Product Template"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:32
+msgctxt "Admin menu name"
+msgid "Product Templates"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:33 includes/post-type-product-tpl.php:34
+msgid "Add New Product Template"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:37
+msgid "New Product Template"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:38 includes/post-type-product-tpl.php:39
+msgid "View Product Template"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:41
+msgid "No Product Templates found"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:42
+msgid "No Product Templates found in trash"
+msgstr ""
+
+#: includes/post-type-product-tpl.php:43
+msgid "Parent Product Template"
+msgstr ""
+
+#: includes/vc-class.php:40
+msgid "Apply for field type: dropdown, check, radio"
+msgstr ""
+
+#: includes/vc-class.php:57 includes/vc-class.php:85
+msgid "Remove"
+msgstr ""
+
+#: includes/vc-class.php:66
+msgid "Add"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:6
+msgid "First Name"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:8
+#: includes/vc-map/account-details-shortcodes.php:28
+#: includes/vc-map/account-details-shortcodes.php:48
+#: includes/vc-map/account-details-shortcodes.php:68
+#: includes/vc-map/account-details-shortcodes.php:89
+msgid "Woo Account Details"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:13
+#: includes/vc-map/account-details-shortcodes.php:33
+#: includes/vc-map/account-details-shortcodes.php:53
+#: includes/vc-map/account-details-shortcodes.php:73
+#: includes/vc-map/account-details-shortcodes.php:143
+#: includes/vc-map/single-product-shortcodes.php:13
+#: includes/vc-map/single-product-shortcodes.php:34
+#: includes/vc-map/single-product-shortcodes.php:55
+#: includes/vc-map/single-product-shortcodes.php:76
+#: includes/vc-map/single-product-shortcodes.php:97
+#: includes/vc-map/single-product-shortcodes.php:118
+#: includes/vc-map/single-product-shortcodes.php:148
+#: includes/vc-map/single-product-shortcodes.php:176
+#: includes/vc-map/single-product-shortcodes.php:197
+#: includes/vc-map/single-product-shortcodes.php:218
+#: includes/vc-map/single-product-shortcodes.php:239
+#: includes/vc-map/single-product-shortcodes.php:260
+#: includes/vc-map/single-product-shortcodes.php:281
+#: includes/vc-map/single-product-shortcodes.php:302
+#: includes/vc-map/single-product-shortcodes.php:354
+#: includes/vc-map/single-product-shortcodes.php:406
+#: includes/vc-map/single-product-shortcodes.php:433
+#: includes/vc-map/single-product-shortcodes.php:460
+#: includes/vc-map/single-product-shortcodes.php:487
+#: includes/vc-map/single-product-shortcodes.php:510
+#: includes/vc-map/single-product-shortcodes.php:532
+#: includes/vc-map/single-product-shortcodes.php:559
+#: includes/vc-map/single-product-shortcodes.php:581
+#: includes/vc-map/vc-map.php:45 includes/vc-map/vc-map.php:66
+#: includes/vc-map/vc-map.php:87 includes/vc-map/vc-map.php:108
+#: includes/vc-map/vc-map.php:167 includes/vc-map/vc-map.php:190
+#: includes/vc-map/vc-map.php:213 includes/vc-map/vc-map.php:234
+#: includes/vc-map/vc-map.php:278 includes/vc-map/vc-map.php:301
+#: includes/vc-map/vc-map.php:322 includes/vc-map/vc-map.php:343
+#: includes/vc-map/vc-map.php:365 includes/vc-map/vc-map.php:386
+#: includes/vc-map/vc-map.php:408 includes/vc-map/vc-map.php:429
+#: includes/vc-map/vc-map.php:461 includes/vc-map/vc-map.php:483
+#: includes/vc-map/vc-map.php:505 includes/vc-map/vc-map.php:535
+#: includes/vc-map/vc-map.php:557 includes/vc-map/vc-map.php:579
+#: includes/vc-map/vc-map.php:630 includes/vc-map/vc-map.php:651
+msgid "Extra class name"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:17
+#: includes/vc-map/account-details-shortcodes.php:37
+#: includes/vc-map/account-details-shortcodes.php:57
+#: includes/vc-map/account-details-shortcodes.php:77
+#: includes/vc-map/account-details-shortcodes.php:147
+#: includes/vc-map/single-product-shortcodes.php:17
+#: includes/vc-map/single-product-shortcodes.php:38
+#: includes/vc-map/single-product-shortcodes.php:59
+#: includes/vc-map/single-product-shortcodes.php:80
+#: includes/vc-map/single-product-shortcodes.php:101
+#: includes/vc-map/single-product-shortcodes.php:122
+#: includes/vc-map/single-product-shortcodes.php:152
+#: includes/vc-map/single-product-shortcodes.php:180
+#: includes/vc-map/single-product-shortcodes.php:201
+#: includes/vc-map/single-product-shortcodes.php:222
+#: includes/vc-map/single-product-shortcodes.php:243
+#: includes/vc-map/single-product-shortcodes.php:264
+#: includes/vc-map/single-product-shortcodes.php:285
+#: includes/vc-map/single-product-shortcodes.php:306
+#: includes/vc-map/single-product-shortcodes.php:358
+#: includes/vc-map/single-product-shortcodes.php:410
+#: includes/vc-map/single-product-shortcodes.php:437
+#: includes/vc-map/single-product-shortcodes.php:464
+#: includes/vc-map/single-product-shortcodes.php:491
+#: includes/vc-map/single-product-shortcodes.php:514
+#: includes/vc-map/single-product-shortcodes.php:536
+#: includes/vc-map/single-product-shortcodes.php:563
+#: includes/vc-map/single-product-shortcodes.php:585
+#: includes/vc-map/vc-map.php:49 includes/vc-map/vc-map.php:70
+#: includes/vc-map/vc-map.php:91 includes/vc-map/vc-map.php:112
+#: includes/vc-map/vc-map.php:171 includes/vc-map/vc-map.php:194
+#: includes/vc-map/vc-map.php:217 includes/vc-map/vc-map.php:238
+#: includes/vc-map/vc-map.php:282 includes/vc-map/vc-map.php:305
+#: includes/vc-map/vc-map.php:326 includes/vc-map/vc-map.php:347
+#: includes/vc-map/vc-map.php:369 includes/vc-map/vc-map.php:390
+#: includes/vc-map/vc-map.php:412 includes/vc-map/vc-map.php:433
+#: includes/vc-map/vc-map.php:465 includes/vc-map/vc-map.php:487
+#: includes/vc-map/vc-map.php:509 includes/vc-map/vc-map.php:539
+#: includes/vc-map/vc-map.php:561 includes/vc-map/vc-map.php:583
+#: includes/vc-map/vc-map.php:634 includes/vc-map/vc-map.php:655
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:21
+#: includes/vc-map/account-details-shortcodes.php:41
+#: includes/vc-map/account-details-shortcodes.php:61
+#: includes/vc-map/account-details-shortcodes.php:81
+#: includes/vc-map/account-details-shortcodes.php:151
+#: includes/vc-map/single-product-shortcodes.php:21
+#: includes/vc-map/single-product-shortcodes.php:42
+#: includes/vc-map/single-product-shortcodes.php:63
+#: includes/vc-map/single-product-shortcodes.php:84
+#: includes/vc-map/single-product-shortcodes.php:105
+#: includes/vc-map/single-product-shortcodes.php:126
+#: includes/vc-map/single-product-shortcodes.php:156
+#: includes/vc-map/single-product-shortcodes.php:184
+#: includes/vc-map/single-product-shortcodes.php:205
+#: includes/vc-map/single-product-shortcodes.php:226
+#: includes/vc-map/single-product-shortcodes.php:247
+#: includes/vc-map/single-product-shortcodes.php:268
+#: includes/vc-map/single-product-shortcodes.php:289
+#: includes/vc-map/single-product-shortcodes.php:310
+#: includes/vc-map/single-product-shortcodes.php:362
+#: includes/vc-map/single-product-shortcodes.php:414
+#: includes/vc-map/single-product-shortcodes.php:441
+#: includes/vc-map/single-product-shortcodes.php:468
+#: includes/vc-map/single-product-shortcodes.php:495
+#: includes/vc-map/single-product-shortcodes.php:518
+#: includes/vc-map/single-product-shortcodes.php:540
+#: includes/vc-map/single-product-shortcodes.php:567
+#: includes/vc-map/single-product-shortcodes.php:589
+#: includes/vc-map/vc-map.php:53 includes/vc-map/vc-map.php:74
+#: includes/vc-map/vc-map.php:95 includes/vc-map/vc-map.php:116
+#: includes/vc-map/vc-map.php:175 includes/vc-map/vc-map.php:198
+#: includes/vc-map/vc-map.php:221 includes/vc-map/vc-map.php:242
+#: includes/vc-map/vc-map.php:286 includes/vc-map/vc-map.php:309
+#: includes/vc-map/vc-map.php:330 includes/vc-map/vc-map.php:351
+#: includes/vc-map/vc-map.php:373 includes/vc-map/vc-map.php:394
+#: includes/vc-map/vc-map.php:416 includes/vc-map/vc-map.php:437
+#: includes/vc-map/vc-map.php:469 includes/vc-map/vc-map.php:491
+#: includes/vc-map/vc-map.php:513 includes/vc-map/vc-map.php:543
+#: includes/vc-map/vc-map.php:565 includes/vc-map/vc-map.php:587
+#: includes/vc-map/vc-map.php:638 includes/vc-map/vc-map.php:659
+msgid "Css"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:23
+#: includes/vc-map/account-details-shortcodes.php:43
+#: includes/vc-map/account-details-shortcodes.php:63
+#: includes/vc-map/account-details-shortcodes.php:83
+#: includes/vc-map/account-details-shortcodes.php:153
+#: includes/vc-map/single-product-shortcodes.php:23
+#: includes/vc-map/single-product-shortcodes.php:44
+#: includes/vc-map/single-product-shortcodes.php:65
+#: includes/vc-map/single-product-shortcodes.php:86
+#: includes/vc-map/single-product-shortcodes.php:107
+#: includes/vc-map/single-product-shortcodes.php:128
+#: includes/vc-map/single-product-shortcodes.php:158
+#: includes/vc-map/single-product-shortcodes.php:186
+#: includes/vc-map/single-product-shortcodes.php:207
+#: includes/vc-map/single-product-shortcodes.php:228
+#: includes/vc-map/single-product-shortcodes.php:249
+#: includes/vc-map/single-product-shortcodes.php:270
+#: includes/vc-map/single-product-shortcodes.php:291
+#: includes/vc-map/single-product-shortcodes.php:312
+#: includes/vc-map/single-product-shortcodes.php:364
+#: includes/vc-map/single-product-shortcodes.php:416
+#: includes/vc-map/single-product-shortcodes.php:443
+#: includes/vc-map/single-product-shortcodes.php:470
+#: includes/vc-map/single-product-shortcodes.php:497
+#: includes/vc-map/single-product-shortcodes.php:520
+#: includes/vc-map/single-product-shortcodes.php:542
+#: includes/vc-map/single-product-shortcodes.php:569
+#: includes/vc-map/single-product-shortcodes.php:591
+#: includes/vc-map/vc-map.php:55 includes/vc-map/vc-map.php:76
+#: includes/vc-map/vc-map.php:97 includes/vc-map/vc-map.php:118
+#: includes/vc-map/vc-map.php:177 includes/vc-map/vc-map.php:200
+#: includes/vc-map/vc-map.php:223 includes/vc-map/vc-map.php:244
+#: includes/vc-map/vc-map.php:288 includes/vc-map/vc-map.php:311
+#: includes/vc-map/vc-map.php:332 includes/vc-map/vc-map.php:353
+#: includes/vc-map/vc-map.php:375 includes/vc-map/vc-map.php:396
+#: includes/vc-map/vc-map.php:418 includes/vc-map/vc-map.php:439
+#: includes/vc-map/vc-map.php:471 includes/vc-map/vc-map.php:493
+#: includes/vc-map/vc-map.php:515 includes/vc-map/vc-map.php:545
+#: includes/vc-map/vc-map.php:567 includes/vc-map/vc-map.php:589
+#: includes/vc-map/vc-map.php:640 includes/vc-map/vc-map.php:661
+msgid "Design options"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:26
+msgid "Last Name"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:46
+msgid "Email Address"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:66
+#: woocommerce-page-builder-templates/myaccount/form-login.php:38
+#: woocommerce-page-builder-templates/myaccount/form-register.php:52
+msgid "Password"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:87
+msgid "Extra Account Details Fields"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:91
+msgid "Add extra fields"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:95
+msgid "Type"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:100
+msgid "Text field"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:101
+msgid "Textarea field"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:102
+msgid "Dropdown field"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:103
+msgid "Date field"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:104
+msgid "Check field"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:105
+msgid "Radio field"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:110
+msgid "Field Label"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:119
+msgid "Field Name (Required)"
+msgstr ""
+
+#: includes/vc-map/account-details-shortcodes.php:128
+msgid "Options"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:6
+msgid "Single Product Image"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:8
+#: includes/vc-map/single-product-shortcodes.php:29
+#: includes/vc-map/single-product-shortcodes.php:50
+#: includes/vc-map/single-product-shortcodes.php:71
+#: includes/vc-map/single-product-shortcodes.php:92
+#: includes/vc-map/single-product-shortcodes.php:113
+#: includes/vc-map/single-product-shortcodes.php:134
+#: includes/vc-map/single-product-shortcodes.php:164
+#: includes/vc-map/single-product-shortcodes.php:192
+#: includes/vc-map/single-product-shortcodes.php:213
+#: includes/vc-map/single-product-shortcodes.php:234
+#: includes/vc-map/single-product-shortcodes.php:255
+#: includes/vc-map/single-product-shortcodes.php:276
+#: includes/vc-map/single-product-shortcodes.php:297
+#: includes/vc-map/single-product-shortcodes.php:318
+#: includes/vc-map/single-product-shortcodes.php:370
+#: includes/vc-map/single-product-shortcodes.php:428
+#: includes/vc-map/single-product-shortcodes.php:455
+#: includes/vc-map/single-product-shortcodes.php:482
+#: includes/vc-map/single-product-shortcodes.php:505
+#: includes/vc-map/single-product-shortcodes.php:527
+#: includes/vc-map/single-product-shortcodes.php:554
+#: includes/vc-map/single-product-shortcodes.php:575
+msgid "Woo Single product"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:27
+msgid "Single Product Title"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:48
+msgid "Single Product Rating"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:69
+msgid "Single Product Price"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:90
+msgid "Single Product Excerpt"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:111
+msgid "Single Product Add To Cart"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:132
+msgid "Single Product Direct Checkout"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:139
+msgid "Direct Checkout Text"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:142
+#: includes/vc-shortcodes/vc-shortcodes.php:230
+msgid "Direct Checkout"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:144
+msgid ""
+"Allow you to implement direct checkout without affecting the existing cart"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:162
+msgid "Single Product Continue Shopping"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:169
+msgid "Continue Shopping button text"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:172
+#: includes/vc-shortcodes/vc-shortcodes.php:261
+msgid "Continue Shopping"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:173
+msgid "Add Continue Shopping Button"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:190
+msgid "Single Product Meta"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:211
+msgid "Single Product Share"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:232
+msgid "Single Product Tabs"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:253
+msgid "Single Product Additional Information"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:274
+msgid "Single Product Description"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:295
+msgid "Single Product Reviews"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:316
+msgid "Single Product Related Products"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:323
+#: includes/vc-map/single-product-shortcodes.php:375
+#: includes/vc-map/vc-map.php:255
+msgid "Product Per Page"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:328
+#: includes/vc-map/single-product-shortcodes.php:380
+#: includes/vc-map/vc-map.php:139 includes/vc-map/vc-map.php:260
+msgid "Columns"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:333
+#: includes/vc-map/single-product-shortcodes.php:385
+#: includes/vc-map/vc-map.php:265
+msgid "Products Ordering"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:337
+#: includes/vc-map/single-product-shortcodes.php:389
+#: includes/vc-map/vc-map.php:19 includes/vc-map/vc-map.php:269
+msgid "Random"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:338
+#: includes/vc-map/single-product-shortcodes.php:390
+#: includes/vc-map/vc-map.php:270
+msgid "Publish Date"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:339
+#: includes/vc-map/single-product-shortcodes.php:391
+#: includes/vc-map/vc-map.php:271
+msgid "Modified Date"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:340
+#: includes/vc-map/single-product-shortcodes.php:392
+#: includes/vc-map/vc-map.php:272
+msgid "Alphabetic"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:341
+#: includes/vc-map/single-product-shortcodes.php:393
+#: includes/vc-map/vc-map.php:273
+msgid "Popularity"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:342
+#: includes/vc-map/single-product-shortcodes.php:394
+#: includes/vc-map/vc-map.php:274
+msgid "Rate"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:343
+#: includes/vc-map/single-product-shortcodes.php:395
+#: includes/vc-map/vc-map.php:275
+#: woocommerce-page-builder-templates/cart/cart.php:39
+#: woocommerce-page-builder-templates/cart/cart.php:99
+msgid "Price"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:346
+#: includes/vc-map/single-product-shortcodes.php:398
+msgid "Products order"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:350
+#: includes/vc-map/single-product-shortcodes.php:402
+msgid "desc"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:351
+#: includes/vc-map/single-product-shortcodes.php:403
+msgid "asc"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:368
+msgid "Single Product up-sells"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:426
+msgid "YITH WooCommerce Wishlist Single Add To Wishlist"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:453
+msgid "YITH WooCommerce Compare Single Add Compare Link"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:480
+msgid "WooCommerce Germanized Single Price Unit"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:503
+msgid "WooCommerce Germanized Single Legal Info"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:525
+msgid "WooCommerce Germanized Single Delivery Time Info"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:552
+msgid "WooCommerce Simple Auction Bid"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:573
+msgid "WooCommerce Simple Auction Pay"
+msgstr ""
+
+#: includes/vc-map/single-product-shortcodes.php:576
+msgid "Display when the user logged in and have won the auction"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:10
+msgid "Show"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:11
+msgid "Hide"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:14
+msgid "Date"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:15
+msgid "ID"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:16
+msgid "Author"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:17
+msgid "Title"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:18
+msgid "Modified"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:20
+msgid "Comment count"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:21
+msgid "Menu order"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:25
+msgid "Descending"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:26
+msgid "Ascending"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:39 includes/vc-map/vc-map.php:60
+#: includes/vc-map/vc-map.php:81 includes/vc-map/vc-map.php:102
+#: includes/vc-map/vc-map.php:124 includes/vc-map/vc-map.php:184
+msgid "Product Category Page"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:58
+msgid "Products Header"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:79
+msgid "Products Header Title"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:100
+msgid "Products Header Description"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:122
+msgid "Products Shop Loop"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:126
+msgid "  "
+msgstr ""
+
+#: includes/vc-map/vc-map.php:144
+msgid "How much columns grid"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:182
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:206
+msgid "Cart Table"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:208 includes/vc-map/vc-map.php:229
+#: includes/vc-map/vc-map.php:250
+msgid "Woo Cart"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:227
+msgid "Cart Totals"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:248
+msgid "Cross Sells"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:293
+msgid "Checkout Before Customer Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:295 includes/vc-map/vc-map.php:317
+#: includes/vc-map/vc-map.php:338 includes/vc-map/vc-map.php:359
+#: includes/vc-map/vc-map.php:381
+msgid "Woo Checkout"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:297
+msgid "Required. Add before 'Billing Information element'."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:315
+msgid "Billing Information"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:336
+msgid "Shipping information form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:357
+msgid "Checkout After Customer Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:361
+msgid "Required. Add after 'Shipping information form'."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:379
+msgid "Order review"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:401
+msgid "My Account Login Form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:403 includes/vc-map/vc-map.php:424
+msgid "Woo My Account Before Login"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:422
+msgid "My Account Register Form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:444
+msgid "My Account Dashboard"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:446 includes/vc-map/vc-map.php:477
+#: includes/vc-map/vc-map.php:499 includes/vc-map/vc-map.php:521
+#: includes/vc-map/vc-map.php:551 includes/vc-map/vc-map.php:573
+#: includes/vc-map/vc-map.php:618 includes/vc-map/vc-map.php:645
+msgid "Woo My Account"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:448
+msgid "Shows account dashboard."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:452
+msgid "Custom My Account Dashboard"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:457
+msgid ""
+"Overridden woocommerce/myaccount/dashboard.php. Leave blank to use the "
+"template dashboard.php file"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:475
+msgid "My Account Orders"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:479 includes/vc-map/vc-map.php:501
+msgid "Shows orders on the account page."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:497
+msgid "My Account Downloads"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:519
+msgid "My Account Addresses"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:523
+msgid "My Addresses."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:549
+msgid "My Account Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:553 includes/vc-map/vc-map.php:575
+msgid "Edit account form."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:571
+msgid "My Account Payment methods"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:616
+msgid "My Account Extra Endpoint"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:624
+msgid "Extra Key endpoint"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:627
+msgid ""
+"Enter extra key for Account endpoint. eg: 'extra-key' for "
+"'woocommerce_account_extra-key_endpoint', 'bookings' for "
+"'woocommerce_account_bookings_endpoint'."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:643
+msgid "My Account Logout"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:781
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:784
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1040
+msgid "Your order"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1117
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1144
+#: includes/vc-shortcodes/vc-shortcodes.php:1230
+#: includes/vc-shortcodes/vc-shortcodes.php:1269
+#: includes/vc-shortcodes/vc-shortcodes.php:1292
+#: includes/vc-shortcodes/vc-shortcodes.php:1319
+msgid "You need first to be logged in"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1400
+msgid "First name"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1424
+msgid "Last name"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1448
+#: woocommerce-page-builder-templates/myaccount/form-register.php:45
+msgid "Email address"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1472
+msgid "Password change"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1475
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1479
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:1483
+msgid "Confirm new password"
+msgstr ""
+
+#: init.php:187
+msgid "Back to Order list"
+msgstr ""
+
+#: init.php:195
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://www.woothemes.com/"
+"woocommerce/\" target=\"_blank\">WooCommerce</a></strong> plugin to be "
+"installed and activated on your site."
+msgstr ""
+
+#: init.php:203
+#, php-format
+msgid ""
+"<strong>%s</strong> Compatible with <strong>Visual Composer</strong> plugin. "
+"So You can install <strong><a href=\"http://bit.ly/vcomposer\" target="
+"\"_blank\">Visual Composer</a></strong> plugin to be used into Visual "
+"Composer page builder."
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-empty.php:33
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:33
+#: woocommerce-page-builder-templates/cart/cart-totals.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:55
+#: woocommerce-page-builder-templates/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:92
+#: woocommerce-page-builder-templates/cart/cart-totals.php:93
+#: woocommerce-page-builder-templates/cart/cart.php:41
+#: woocommerce-page-builder-templates/cart/cart.php:122
+msgid "Total"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:38
+#: woocommerce-page-builder-templates/cart/cart.php:81
+msgid "Product"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:40
+#: woocommerce-page-builder-templates/cart/cart.php:105
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:62
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:94
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:140
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:140
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:140
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:145
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/before-form-checkout.php:19
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-edit-account.php:39
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:27
+#: woocommerce-page-builder-templates/myaccount/form-login.php:46
+msgid "Login"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:52
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:29
+#: woocommerce-page-builder-templates/myaccount/form-register.php:66
+msgid "Register"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:38
+msgid "Username"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:59
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/partials/dropdown.php:13
+msgid "Choose value"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/payment-methods.php:52
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/payment-methods.php:73
+msgid "No saved methods found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DT WooCommerce Page Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://dawnthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"is the ideal Visual Composer add-on to effortlessly layout for WooCommerce "
+"and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DawnThemes"
+msgstr ""
