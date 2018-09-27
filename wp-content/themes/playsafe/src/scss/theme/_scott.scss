@@ -1,0 +1,28 @@
+// Product Page
+
+.innerbanner-section {
+    background: $ps-main;
+    min-height: 55vh!important;
+}
+
+h3 {
+    &.product-crumb {
+        nav {
+            &.woocommerce-breadcrumb {
+                &:not(a) {
+                    color: $ps-secondarylight2;
+                }
+            }
+        }
+    }
+}
+
+.single-product {
+    .product {
+        padding-top: 3em;
+    }
+}
+
+.single_add_to_cart_button.button.alt {
+    background: $ps-orange!important;
+}
