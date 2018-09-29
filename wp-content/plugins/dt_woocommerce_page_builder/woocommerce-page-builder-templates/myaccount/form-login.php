@@ -56,5 +56,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	</form>
 </div>
-
-

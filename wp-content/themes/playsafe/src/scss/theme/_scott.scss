@@ -39,11 +39,14 @@ h3 {
 }
 
 .single_add_to_cart_button.button.alt,
-a.button.add_to_cart_button {
+a.button.add_to_cart_button,
+.woocommerce_checkout_place_order,
+.button {
     background: $ps-orange!important;
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 0!important;
     height: 40px;
+    color: #fff!important;
     &:hover {
         color: #fff;
     }
@@ -82,7 +85,7 @@ a.button.add_to_cart_button {
 }
 
 .square-content {
-    min-height: 130px;
+    min-height: 200px!important;
     display: flex;
     align-items: center;
     width: 40%;
@@ -125,4 +128,58 @@ a.button.add_to_cart_button {
 .woocommerce div.product .woocommerce-tabs ul.tabs li::before,
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after {
     display: none!important;
+}
+
+.woocommerce nav.woocommerce-breadcrumb a {
+    &:hover{
+        color: #b6d3ed!important;
+        text-decoration: none!important;
+    }
+}
+
+// checkout
+
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+    display: flex;
+}
+
+.woocommerce-info {
+    margin-top: 3em;
+    color: #fff!important;
+    a {
+        color: $ps-section;
+    }
+}
+
+.woocommerce form .form-row {
+    width: 100%;
+    display: grid;
+}
+.woocommerce form .form-row .required {
+    color: $ps-orange;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    border-radius: 0;
+    background: #eee;
+    border: none;
+    padding: 15px;
+}
+
+.place-order {
+    margin-bottom: 3em;
+}
+
+// .woocommerce form .form-row label {
+label {
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+#order_review {
+    margin-bottom: 3em;
+}
+
+#order_review_heading {
+    padding-top: 3em!important;
 }

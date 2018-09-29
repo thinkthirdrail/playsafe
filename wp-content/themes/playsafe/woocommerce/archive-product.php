@@ -31,11 +31,11 @@ get_header( 'shop' );
 <section class="visual-composer">
 	<div class="container">
 		<div class="row main-woo-arch">
-		
+
 			<div class="col-md-4">
 				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('woo-arch-sidebar') ) : endif; ?>
-			</div>	
-	
+			</div>
+
 
 		<div class="col-md-8">
 <?php
@@ -120,7 +120,7 @@ do_action( 'woocommerce_after_main_content' );
 
 
 
-</div>	
+</div>
 
 </div>
 

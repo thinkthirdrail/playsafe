@@ -2937,6 +2937,20 @@
 		"oAP": "/woocommerce/archive-product.php",
 		"oF": 0
 		},
+	"/woocommerce/checkout/form-billing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/woocommerce/checkout/form-billing.php",
+		"oF": 0
+		},
+	"/woocommerce/checkout/form-checkout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/woocommerce/checkout/form-checkout.php",
+		"oF": 0
+		},
 	"/woocommerce/content-product.php": {
 		"cB": 0,
 		"ft": 8192,
