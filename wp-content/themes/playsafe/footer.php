@@ -56,15 +56,7 @@
       </div>
     </div>
   </section>
-
-  <?php $footer_image = get_field( 'footer_image' ); ?>
-  <?php if ( $footer_image ): ?>
-    <section class="footer-section footer-innerpage" style="background: url('<?php echo $footer_image['url']; ?>') center no-repeat;">
-  <?php elseif( playsafe_featured_image() ): ?>
-    <section class="footer-section footer-innerpage" style="background: url('<?php echo playsafe_featured_image() ?>') center no-repeat;">
-  <?php else: ?>
     <section class="footer-section footer-innerpage" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/banner-image.jpg') center no-repeat;">
-  <?php endif; ?>
 		<div class="footer-overlay"></div>
 		<div class="container-fluid">
 			<div class="row">

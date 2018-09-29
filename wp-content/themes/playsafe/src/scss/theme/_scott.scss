@@ -23,6 +23,106 @@ h3 {
     }
 }
 
-.single_add_to_cart_button.button.alt {
+.woocommerce-Price-amount {
+    font-weight: bold;
+}
+
+.woocommerce-product-gallery__trigger,
+.sku_wrapper {
+    display: none!important;
+}
+
+.woocommerce-product-gallery__wrapper {
+    background-color: #eee;
+    padding: 3em!important;
+    box-sizing: border-box;
+}
+
+.single_add_to_cart_button.button.alt,
+a.button.add_to_cart_button {
     background: $ps-orange!important;
+    text-transform: uppercase;
+    border-radius: 0;
+    height: 40px;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.cat-label-group {
+    display: none;
+}
+
+.woocommerce .quantity .qty {
+    width: 3.631em;
+    text-align: center;
+    height: 40px;
+    border-radius: 0
+}
+
+.woocommerce-tabs {
+    float: right;
+    width: 50%;
+    clear: none!important;
+    padding-top: 5%;
+}
+
+.summary.entry-summary {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -20%;
+        left: 0px;
+        height: 4px;
+        width: 100%;
+        background-color: $ps-secondarylight2;
+    }
+
+}
+
+.square-content {
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.woocommerce span.onsale {
+    background: #f06c2f;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 60px;
+    top: 2em;
+}
+
+.square-box, .square-content {
+    background: #eee!important;
+}
+
+.woocommerce-tabs .panel h2:first-of-type {
+    display: none!important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: none!important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border-radius: 0;
+    &.active {
+            background: $ps-main!important;
+            color: #fff;
+    }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after {
+    display: none!important;
 }

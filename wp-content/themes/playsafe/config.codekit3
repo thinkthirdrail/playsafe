@@ -7,7 +7,7 @@
 		"uuidString": "9A95B299-AF70-420D-B4EC-0C7C1809C168"
 		}
 	],
-"creatorBuild": "28841",
+"creatorBuild": "28901",
 "files": {
 	"/404.php": {
 		"cB": 0,
@@ -2963,6 +2963,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/woocommerce/single-product.php",
+		"oF": 0
+		},
+	"/woocommerce/single-product/tabs/tabs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/woocommerce/single-product/tabs/tabs.php",
 		"oF": 0
 		},
 	"/woocommerce/single-product/title.php": {
