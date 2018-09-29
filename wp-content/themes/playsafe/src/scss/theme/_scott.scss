@@ -183,3 +183,13 @@ label {
 #order_review_heading {
     padding-top: 3em!important;
 }
+
+// Cart
+
+.woocommerce table.shop_table {
+    margin-top: 3em;
+}
+
+.wc-proceed-to-checkout a.checkout-button {
+    padding: 1em 0!important;
+}
