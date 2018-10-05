@@ -25,7 +25,8 @@ endif;
 
 ?>
 
-<section class="innerbanner-section">
+<section class="innerbanner-section" style="background-image: url('<?php echo get_stylesheet_directory_uri();?>/assets/images/banner-image.jpg');">
+    <div class="head-overlay"></div>
   <div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6" data-aos="zoom-in">
@@ -34,7 +35,15 @@ endif;
 
 							<div class="description-content">
 
-		                                                <h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
+                                <h1 class="woocommerce-products-header__title page-title">
+                                    <?php if(is_archive()) : ?>
+                                        <?php woocommerce_page_title(); ?></h1>
+                                    <?php elseif (is_single()) : ?>
+                                        <?php the_title(); ?></h1>
+                                    <?php else : ?>
+                                        <?php echo 'shop' ?>
+                                    <?php endif;?>
+                                </h1>
 
 								<h3 class="product-crumb"><?php woocommerce_breadcrumb(); ?></h3>
 							</div>

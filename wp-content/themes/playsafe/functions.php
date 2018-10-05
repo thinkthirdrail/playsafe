@@ -163,7 +163,7 @@ add_action( 'wp_enqueue_scripts', 'playsafe_scripts' );
 if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
 function my_jquery_enqueue() {
    wp_deregister_script('jquery');
-   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", false, null);
+   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", false, null);
    wp_enqueue_script('jquery');
 }
 
@@ -329,7 +329,7 @@ add_action( 'init', 'hardware_function', 0 );
 //Remove title hook and add in a new one with the product categories added
 remove_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 10 );
 add_action( 'woocommerce_shop_loop_item_title', 'VS_woo_loop_product_title', 10 );
- 
+
 function VS_woo_loop_product_title() {
     echo '<h3 class="the-shoptitle">' . get_the_title() . '</h3>';
     $terms = get_the_terms( $post->ID, 'product_cat' );
@@ -355,4 +355,3 @@ function VS_woo_loop_product_title() {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
-
